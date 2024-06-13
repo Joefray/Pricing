@@ -1,0 +1,98 @@
+.priceGridIcon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+}
+.priceGrid {
+  position: absolute;
+  top: -132.7px;
+  left: 356.4px;
+  width: 1133.8px;
+  height: 932.3px;
+  z-index: 1;
+}
+.priceGridIcon1 {
+  position: absolute;
+  top: 540px;
+  left: 77px;
+  width: 1854.4px;
+  height: 1526.4px;
+  object-fit: contain;
+}
+.priceGridIcon2,
+.priceGridIcon3,
+.priceGridIcon4 {
+  position: absolute;
+  top: 129.8px;
+  left: -405px;
+  width: 914.6px;
+  height: 876.3px;
+  object-fit: contain;
+  z-index: 2;
+}
+.priceGridIcon3,
+.priceGridIcon4 {
+  top: -263px;
+  left: 1366px;
+  width: 967.4px;
+  height: 796.3px;
+}
+.priceGridIcon4 {
+  top: -592px;
+  left: -219px;
+  z-index: 3;
+}
+.flowbaseChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 29.71px 0 0 0;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.flowbase,
+.logoFlowbase1 {
+  position: absolute;
+  z-index: 1;
+}
+.logoFlowbase1 {
+  top: 32.2px;
+  left: 52px;
+  width: 277.3px;
+  height: 60.7px;
+  object-fit: contain;
+}
+.flowbase {
+  top: 837px;
+  left: 1220px;
+  border-radius: 29.71px 0 0 0;
+  background-color: var(--color-white);
+  width: 380px;
+  height: 123.8px;
+}
+.priceGridParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.templateByFlowbaseco {
+  width: 100%;
+  height: 960px;
+  position: relative;
+  background-color: #5445c2;
+  overflow: hidden;
+  line-height: normal;
+  letter-spacing: normal;
+}
