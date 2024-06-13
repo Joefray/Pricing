@@ -1,0 +1,80 @@
+.saveMore,
+.withGoodplans {
+  margin: 0;
+}
+.chooseAPlan,
+.title {
+  margin: 0;
+  position: relative;
+}
+.title {
+  width: 296px;
+  height: 96px;
+  font-size: inherit;
+  line-height: 48px;
+  display: inline-block;
+  max-width: 93%;
+  font-family: inherit;
+}
+.chooseAPlan {
+  align-self: stretch;
+  font-size: var(--font-size-lg);
+  line-height: 24px;
+}
+.pexelsGodisableJacob871495Icon {
+  position: absolute;
+  height: calc(100% - 4px);
+  top: 4px;
+  bottom: 0;
+  left: -89px;
+  max-height: 100%;
+  width: 612px;
+  object-fit: cover;
+}
+.arrowRightLine1Icon {
+  position: absolute;
+  top: 0;
+  left: 112px;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  z-index: 1;
+}
+.pexelsGodisableJacob871495Parent {
+  margin-left: -112px;
+  width: 523px;
+  height: 412px;
+  position: relative;
+  max-width: 164%;
+  flex-shrink: 0;
+}
+.pricingCard01 {
+  border-radius: var(--br-xl);
+  background-color: var(--color-darkolivegreen);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-21xl) var(--padding-21xl) 0;
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1000px) {
+  .title {
+    font-size: var(--font-size-7xl);
+    line-height: 38px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .title {
+    font-size: var(--font-size-lgi);
+    line-height: 29px;
+  }
+}

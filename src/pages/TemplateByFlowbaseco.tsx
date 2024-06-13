@@ -11,7 +11,7 @@ const TemplateByFlowbaseco: FunctionComponent = () => {
         <img
           className={styles.priceGridIcon1}
           alt=""
-          src="/price-grid@2x.png"
+          src="/price-grid1@2x.png"
         />
         <img
           className={styles.priceGridIcon2}
@@ -21,12 +21,12 @@ const TemplateByFlowbaseco: FunctionComponent = () => {
         <img
           className={styles.priceGridIcon3}
           alt=""
-          src="/price-grid@2x.png"
+          src="/price-grid2@2x.png"
         />
         <img
           className={styles.priceGridIcon4}
           alt=""
-          src="/price-grid@2x.png"
+          src="/price-grid2@2x.png"
         />
         <div className={styles.flowbase}>
           <div className={styles.flowbaseChild} />

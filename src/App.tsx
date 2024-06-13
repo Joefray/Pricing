@@ -6,6 +6,7 @@ import {
   useLocation,
 } from "react-router-dom";
 import TemplateByFlowbaseco from "./pages/TemplateByFlowbaseco";
+import PricingTable from "./pages/PricingTable";
 
 function App() {
   const action = useNavigationType();
@@ -24,6 +25,10 @@ function App() {
 
     switch (pathname) {
       case "/":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/pricing-table-2":
         title = "";
         metaDescription = "";
         break;
@@ -46,6 +51,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<TemplateByFlowbaseco />} />
+      <Route path="/pricing-table-2" element={<PricingTable />} />
     </Routes>
   );
 }
